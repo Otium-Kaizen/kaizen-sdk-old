@@ -44,7 +44,7 @@ export const INIT_CODE_HASH: string = 'cbeffde96c6fe56ef323c731b749145adea737fa8
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac',
-  [ChainId.ROPSTEN]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
+  [ChainId.ROPSTEN]: '0xB8B4AddBD233d39d9E63b867C7E0aC45Ff420403',
   [ChainId.RINKEBY]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.GÖRLI]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.KOVAN]: '0x22a031F51FB8d9ed347317CA00C24Ad355EC9084',
@@ -71,9 +71,9 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
   [ChainId.RINKEBY]: '',
-  [ChainId.ROPSTEN]: '',
+  [ChainId.ROPSTEN]: '0x3034f3a2772f70F2e502D9782a3D96AEc5D41EEb',
   [ChainId.GÖRLI]: '',
-  [ChainId.KOVAN]: '0xDF7ca35Df25720B368C7259Ba39E4b7f1f3B8DF7',
+  [ChainId.KOVAN]: '',
   [ChainId.FANTOM]: '',
   [ChainId.FANTOM_TESTNET]: '',
   [ChainId.MATIC]: '',
@@ -96,10 +96,10 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
 
 export const KZEN_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '',
+  [ChainId.ROPSTEN]: '0x360b3521730C601Eb8a4B5947fA0a593E6cAA484',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
-  [ChainId.KOVAN]: '0x3D7a4892B3AC0606bF4bE914c36d80998396dd9D',
+  [ChainId.KOVAN]: '',
   [ChainId.FANTOM]: '',
   [ChainId.FANTOM_TESTNET]: '',
   [ChainId.MATIC]: '',
@@ -122,10 +122,10 @@ export const KZEN_ADDRESS: { [chainId in ChainId]: string } = {
 
 export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '',
+  [ChainId.ROPSTEN]: '0xFA947b9f27A505aC572ac04E56296d5D80E57A72',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
-  [ChainId.KOVAN]: '0xCc37F6706260339E36FC2Bf99361f88E80F6C5E6',
+  [ChainId.KOVAN]: '',
   [ChainId.FANTOM]: '',
   [ChainId.FANTOM_TESTNET]: '',
   [ChainId.MATIC]: '',
@@ -148,10 +148,10 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
 
 export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '',
+  [ChainId.ROPSTEN]: '0x8c68B70cF7d268e34f19338FD08d1Dea69f0e187',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
-  [ChainId.KOVAN]: '0x8A1D2205855b76960674e828928fC58E53e5cf0d',
+  [ChainId.KOVAN]: '',
   [ChainId.FANTOM]: '',
   [ChainId.FANTOM_TESTNET]: '',
   [ChainId.MATIC]: '',
@@ -174,10 +174,10 @@ export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
 
 export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '',
+  [ChainId.ROPSTEN]: '0xA0D285a2A9893Cb7a9cFCDB8a73Ae6Df3EdEC405',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
-  [ChainId.KOVAN]: '0x0FC6592Bf80649d220E6EDcC2b4762DE81C5664E',
+  [ChainId.KOVAN]: '',
   [ChainId.FANTOM]: '',
   [ChainId.FANTOM_TESTNET]: '',
   [ChainId.MATIC]: '',
