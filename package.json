@@ -1,14 +1,17 @@
 {
   "name": "@kaizen/sdk",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🛠 An SDK for building applications on top of kaizen.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Otium-Kaizen/kaizen-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otium-Kaizen/kaizen-sdk.git"
+  },
   "keywords": [
     "uniswap",
     "sushiswap",
@@ -56,5 +59,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Otium-Kaizen/kaizen-sdk/issues"
+  },
+  "homepage": "https://github.com/Otium-Kaizen/kaizen-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "kaizen"
 }
