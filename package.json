@@ -1,8 +1,8 @@
 {
   "name": "@kaizen/sdk",
   "license": "MIT",
-  "version": "5.0.0-canary.12",
-  "description": "🛠 An SDK for building applications on top of Sushiswap.",
+  "version": "1.0.2",
+  "description": "🛠 An SDK for building applications on top of kaizen.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
