@@ -40,11 +40,11 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const INIT_CODE_HASH: string = 'cbeffde96c6fe56ef323c731b749145adea737fa8a8b1346f3f1ad0c67ea13b4'
+export const INIT_CODE_HASH: string = '0x536889a57dfb2e7dcf50ca72c25b0db642d4ebeed6353c94ad860f8d2072eeb0'
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '0xB8B4AddBD233d39d9E63b867C7E0aC45Ff420403',
+  [ChainId.ROPSTEN]: '0x9df1047a9ccf4218821aD19340C499Bdb45510aF',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '0x22a031F51FB8d9ed347317CA00C24Ad355EC9084',
@@ -71,7 +71,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
   [ChainId.RINKEBY]: '',
-  [ChainId.ROPSTEN]: '0x3034f3a2772f70F2e502D9782a3D96AEc5D41EEb',
+  [ChainId.ROPSTEN]: '0xffCBDCaDE90dcd52870ebbf514FD6d785df2bbbA',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '0xDF7ca35Df25720B368C7259Ba39E4b7f1f3B8DF7',
   [ChainId.FANTOM]: '',
@@ -96,7 +96,7 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
 
 export const KZEN_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '0x360b3521730C601Eb8a4B5947fA0a593E6cAA484',
+  [ChainId.ROPSTEN]: '0x5169a5313Fc6e17a2e610855c4ceF955d32bFC12',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '0x3D7a4892B3AC0606bF4bE914c36d80998396dd9D',
@@ -122,7 +122,7 @@ export const KZEN_ADDRESS: { [chainId in ChainId]: string } = {
 
 export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '0xFA947b9f27A505aC572ac04E56296d5D80E57A72',
+  [ChainId.ROPSTEN]: '0xb3b9Ea1dB135c2441bFC7d63acd6fbAf9c4fE890',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '0xCc37F6706260339E36FC2Bf99361f88E80F6C5E6',
